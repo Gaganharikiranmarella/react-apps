@@ -17,6 +17,7 @@ function App() {
       </main> 
 
       <footer>
+        <hr/>
         <p>&copy; Marella Gagan Hari Kiran, 2025; All rights reserved</p>
       </footer>
 
