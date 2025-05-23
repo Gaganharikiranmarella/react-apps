@@ -1,10 +1,11 @@
-import "./Product.css";
+export default function Product(props) {
+  const { name, price } = props.value; // accessing passed data
 
-export default function Product({ name, price }) {
   return (
-    <div className="product-container">
-      <span>Product Name: {name}</span>
-      <span>Price: ₹{price}</span>
+    <div className="App-Product-Box">
+      <h3>{name}</h3>
+      <h4>${price}</h4>
+      <button>Add to Cart</button>
     </div>
   );
 }
