@@ -1,43 +1,49 @@
 .App-Header-Row {
   background-color: #facc15;
   color: #1e3a8a;
-  padding: 20px 30px;
+  padding: 15px 25px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-bottom: 3px solid #1e3a8a;
 }
 
 .App-Header-Row h1 {
-  margin: 10px 0;
-  font-size: 1.8rem;
-  flex: 1 0 100%;
+  font-size: 2rem;
+  margin: 0 0 10px 0;
   text-align: center;
 }
 
-.App-Header-Row a {
-  color: #1e3a8a;
-  text-decoration: none;
-  margin: 10px 15px;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: color 0.3s ease;
+.nav-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.App-Header-Row a:hover {
-  color: #ef4444;
+.nav-links a {
+  color: #1e3a8a;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #1e3a8a;
+  color: #facc15;
 }
 
 @media (max-width: 600px) {
-  .App-Header-Row {
-    flex-direction: column;
-    text-align: center;
+  .App-Header-Row h1 {
+    font-size: 1.6rem;
   }
 
-  .App-Header-Row a {
-    margin: 8px 0;
-    display: block;
+  .nav-links a {
+    font-size: 1rem;
+    padding: 5px 10px;
   }
 }
