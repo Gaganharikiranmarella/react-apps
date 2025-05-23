@@ -1,0 +1,43 @@
+.App-Header-Row {
+  background-color: #facc15;
+  color: #1e3a8a;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 3px solid #1e3a8a;
+}
+
+.App-Header-Row h1 {
+  margin: 10px 0;
+  font-size: 1.8rem;
+  flex: 1 0 100%;
+  text-align: center;
+}
+
+.App-Header-Row a {
+  color: #1e3a8a;
+  text-decoration: none;
+  margin: 10px 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.App-Header-Row a:hover {
+  color: #ef4444;
+}
+
+@media (max-width: 600px) {
+  .App-Header-Row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .App-Header-Row a {
+    margin: 8px 0;
+    display: block;
+  }
+}

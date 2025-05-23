@@ -1,10 +1,11 @@
-import React from 'react'
+import "./Calc.css";
 
-export default function Calc(props) {
-    let result = props.v1 + props.v2
+export default function Calc({ v1, v2 }) {
   return (
-    <div>
-        Sum of {props.v1} and {props.v2} is {result}
+    <div className="calc-container">
+      <span>Value 1: {v1}</span>
+      <span>Value 2: {v2}</span>
+      <span>Sum: {v1 + v2}</span>
     </div>
-  )
+  );
 }

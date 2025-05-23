@@ -3,7 +3,7 @@ import "./Footer.css"
 export default function Footer() {
   return (
     <div className="App-Footer-Row">
-        Copyright. All rights reserved.
+        &copy; Marella Gagan Hari Kiran, 2025; All rights Reserved
     </div>
   )
 }

@@ -1,0 +1,13 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.1rem;
+  color: #243b53;
+}
+
+.product-container span {
+  background-color: #f0f4f8;
+  padding: 10px;
+  border-radius: 8px;
+}

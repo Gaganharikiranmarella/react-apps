@@ -1,0 +1,14 @@
+.calc-container {
+  background: #edf2f7;
+  padding: 20px;
+  border-radius: 10px;
+  color: #243b53;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.calc-container span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}

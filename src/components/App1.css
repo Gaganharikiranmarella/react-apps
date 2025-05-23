@@ -1,0 +1,31 @@
+/* App1.css */
+.app1-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  min-height: 100vh;
+  padding: 40px;
+  color: #102a43;
+}
+
+.app1-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #334e68;
+  text-align: center;
+  text-shadow: 1px 1px 2px #cbd2d9;
+}
+
+.component-wrapper {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.component-wrapper:hover {
+  transform: scale(1.02);
+}

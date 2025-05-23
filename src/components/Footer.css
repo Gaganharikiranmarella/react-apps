@@ -1,0 +1,11 @@
+.App-Footer-Row {
+  background-color: #0f172a;
+  color: #f8fafc;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 2px solid #334155;
+  margin-top: 40px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,39 @@
+.variant-container {
+  background-color: #f1f5f9; /* light gray */
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.variant-container p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.variant-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.variant-container li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #334155; /* slate gray */
+}
+
+@media (max-width: 600px) {
+  .variant-container {
+    padding: 15px;
+  }
+
+  .variant-container p {
+    font-size: 1rem;
+  }
+
+  .variant-container li {
+    font-size: 0.95rem;
+  }
+}
