@@ -1,5 +1,7 @@
+// App2.jsx
 import "./App2.css";
 import Product from "./Product";
+
 export default function App2() {
   const products = [
     { id: 1, name: "Product 1", price: 23 },
@@ -11,7 +13,7 @@ export default function App2() {
       <h1>This is App2 component</h1>
       <div className="App-Product-Container">
         {products.map((value) => (
-          <Product value={value} />
+          <Product key={value.id} value={value} />
         ))}
       </div>
     </div>

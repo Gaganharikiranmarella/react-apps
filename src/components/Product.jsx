@@ -1,6 +1,6 @@
+// Product.jsx
 export default function Product(props) {
-  const { name, price } = props.value; // accessing passed data
-
+  const { name, price } = props.value;
   return (
     <div className="App-Product-Box">
       <h3>{name}</h3>
