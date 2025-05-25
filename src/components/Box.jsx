@@ -1,6 +1,6 @@
 import React from "react";
 import Box1 from "./Box1";
-import Box2 from "./Box2";
+//import Box2 from "./Box2";
 import "./Box.css"; 
 
 export default function Box(props) {
