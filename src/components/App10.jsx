@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import "./App10.css";
 
 const products = [
-  { id: 1, name: "Pen", price: 10 },
-  { id: 2, name: "Notebook", price: 50 },
-  { id: 3, name: "Pencil", price: 5 },
-  { id: 4, name: "Eraser", price: 8 },
-  { id: 5, name: "Ruler", price: 12 },
+  { id: 1, name: "Product - 1", price: 100.34 },
+  { id: 2, name: "Product - 2", price: 50.66 },
+  { id: 3, name: "Product - 3", price: 5.91 },
+  { id: 4, name: "Product - 4", price: 8.09 },
+  { id: 5, name: "Product - 5", price: 120 },
 ];
 
 export default function ProductCart() {
