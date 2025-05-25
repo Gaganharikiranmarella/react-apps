@@ -33,6 +33,7 @@ function App() {
         <Route path="/app8" element={<App8 />} /> 
         <Route path="/app9" element={<App9 />} /> 
         <Route path="/app10" element={<App10 />} /> 
+        <Route path="/app11" element={<App11 />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
