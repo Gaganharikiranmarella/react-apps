@@ -14,39 +14,43 @@
   font-size: 1.2rem;
   border: 2px solid #0f172a;
   border-radius: 10px;
-  width: 250px;
+  width: 200px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 2;
 }
 
 .Corner {
   position: absolute;
   background-color: #f8fafc;
-  padding: 15px;
-  border-radius: 12px;
+  padding: 10px 14px;
+  border-radius: 10px;
   border: 2px solid #334155;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-  width: 220px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 200px;
   text-align: center;
   font-size: 0.95rem;
+  z-index: 1;
 }
 
+/* Tightly clustered positions around input */
 .Top-Left {
-  top: 20px;
-  left: 20px;
+  top: calc(50% - 80px);
+  left: calc(50% - 230px);
 }
 
 .Top-Right {
-  top: 20px;
-  right: 20px;
+  top: calc(50% - 80px);
+  left: calc(50% + 30px);
 }
 
 .Bottom-Left {
-  bottom: 20px;
-  left: 20px;
+  top: calc(50% + 80px);
+  left: calc(50% - 230px);
 }
 
 .Bottom-Right {
-  bottom: 20px;
-  right: 20px;
+  top: calc(50% + 80px);
+  left: calc(50% + 30px);
 }
