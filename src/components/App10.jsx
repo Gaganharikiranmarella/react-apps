@@ -72,7 +72,7 @@ export default function ProductCart() {
               </div>
             </div>
           ))}
-          <h4>Total: ₹{total}</h4>
+          <h4>Total: ${total}</h4>
         </div>
       )}
     </div>
