@@ -11,6 +11,7 @@ import App7 from "./components/App7";
 import App8 from "./components/App8";
 import App9 from "./components/App9";
 import App10 from "./components/App10";
+import App11 from "./components/App11";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
