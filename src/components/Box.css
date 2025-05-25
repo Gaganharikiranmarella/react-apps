@@ -1,0 +1,11 @@
+.Box-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 2px dashed #60a5fa;
+  border-radius: 12px;
+  background-color: #f0f9ff;
+}

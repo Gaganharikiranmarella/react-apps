@@ -1,0 +1,39 @@
+.App-Container {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #2563eb;
+}
+
+@media (max-width: 600px) {
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .button-group button {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
