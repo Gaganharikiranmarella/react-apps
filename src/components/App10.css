@@ -1,0 +1,80 @@
+.App-Container {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Product-List {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.Product-Card {
+  background-color: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 2px 2px 5px #cbd5e1;
+}
+
+.Product-Card button {
+  padding: 5px 10px;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Product-Card button:hover {
+  background-color: #0369a1;
+}
+
+.Cart-Container {
+  margin-top: 40px;
+  background-color: #e2e8f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 8px #94a3b8;
+}
+
+.Cart-Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.Qty-Controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Qty-Controls button {
+  padding: 2px 8px;
+  font-size: 1rem;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Qty-Controls button:hover {
+  background-color: #1e40af;
+}
