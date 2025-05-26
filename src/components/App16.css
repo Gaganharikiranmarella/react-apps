@@ -1,0 +1,49 @@
+.App16-Container {
+  background: linear-gradient(135deg, #f0f4f8, #e2e8f0);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px auto;
+  max-width: 500px;
+  color: #0f172a;
+  transition: all 0.3s ease-in-out;
+}
+
+.App16-Container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.App16-Container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+.App16-Container input[type="number"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: 2px solid #94a3b8;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+}
+
+.App16-Container input[type="number"]:focus {
+  border-color: #1e40af;
+  outline: none;
+}
+
+.App16-Container p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.App16-Container h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  transition: color 0.5s ease-in-out;
+}
