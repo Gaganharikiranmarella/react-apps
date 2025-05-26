@@ -49,10 +49,13 @@ export default function App15() {
       </section>
 
       {/* Section 3 */}
+      {/* Section 3 */}
       <section className="section">
         <h2>Section 3 - Color Changer</h2>
-        <p ref={helloRef} className="hello-text">Hello World</p>
-        <input type="text" ref={colorRef} placeholder="Enter color" />
+        <p ref={helloRef} className="hello-text">
+          Hello World
+        </p>
+        <input type="color" ref={colorRef} />
         <button onClick={changeColor}>Apply</button>
       </section>
     </div>
