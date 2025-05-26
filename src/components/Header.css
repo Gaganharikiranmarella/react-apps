@@ -1,18 +1,31 @@
 .App-Header-Row {
-  background-color: #facc15;
-  color: #1e3a8a;
+  background: linear-gradient(
+    270deg,
+    #ff0000,
+    #ff9900,
+    #33ff00,
+    #00ffff,
+    #3300ff,
+    #cc00ff,
+    #ff0000
+  );
+  background-size: 1400% 1400%;
+  animation: headerRGB 12s ease infinite;
+  color: #ffffff;
   padding: 15px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-bottom: 3px solid #1e3a8a;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .App-Header-Row h1 {
   font-size: 2rem;
   margin: 0 0 10px 0;
   text-align: center;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
 }
 
 .nav-links {
@@ -23,18 +36,30 @@
 }
 
 .nav-links a {
-  color: #1e3a8a;
+  color: #ffffff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.1rem;
-  padding: 6px 12px;
-  border-radius: 6px;
+  padding: 6px 14px;
+  border-radius: 8px;
   transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
 }
 
 .nav-links a:hover {
-  background-color: #1e3a8a;
-  color: #facc15;
+  background: #ffffff;
+  color: #000000;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+}
+
+@keyframes headerRGB {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 @media (max-width: 600px) {
