@@ -1,0 +1,68 @@
+.App15-Container {
+  background: linear-gradient(135deg, #fef9c3, #e0f2fe);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1e293b;
+}
+
+.section {
+  background-color: #f1f5f9;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.section h1, .section h2 {
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section input[type="text"],
+.section input[type="number"] {
+  padding: 10px 15px;
+  margin: 10px 10px 20px 0;
+  font-size: 1rem;
+  border: 2px solid #94a3b8;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.section input:focus {
+  border-color: #0ea5e9;
+}
+
+.section button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #0ea5e9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section button:hover {
+  background-color: #0284c7;
+}
+
+.result-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.hello-text {
+  font-size: 2rem;
+  font-weight: bold;
+  transition: color 0.8s ease-in-out;
+}
