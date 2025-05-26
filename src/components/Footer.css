@@ -1,23 +1,36 @@
 .App-Footer-Row {
-  background: linear-gradient(270deg, #0f172a, #1e293b, #0f172a);
-  background-size: 600% 600%;
-  animation: animatedBackground 10s ease infinite;
-  color: #f8fafc;
+  background: linear-gradient(
+    270deg,
+    #ff0000,
+    #ff9900,
+    #33ff00,
+    #00ffff,
+    #3300ff,
+    #cc00ff,
+    #ff0000
+  );
+  background-size: 1400% 1400%;
+  animation: vibrantRGB 10s ease infinite;
+  color: #ffffff;
   text-align: center;
   padding: 20px 15px;
   font-size: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-top: 2px solid #334155;
+  border-top: 3px solid #ffffff40;
   margin-top: 40px;
   word-wrap: break-word;
-  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -6px 20px rgba(255, 255, 255, 0.4),
+              0 -2px 12px rgba(0, 0, 0, 0.4);
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
 
-@keyframes animatedBackground {
+/* RGB background animation */
+@keyframes vibrantRGB {
   0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
   50% { background-position: 100% 50%; }
+  75% { background-position: 50% 50%; }
   100% { background-position: 0% 50%; }
 }
