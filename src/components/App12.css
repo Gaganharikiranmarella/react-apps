@@ -1,0 +1,43 @@
+.App-Container {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Counter-Box {
+  background-color: #ffffff;
+  border: 2px solid #0f172a;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 25px 40px;
+  margin: 20px;
+  width: 250px;
+}
+
+.Counter-Box h1 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: #1e293b;
+}
+
+.Counter-Box button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 10px;
+  background-color: #0ea5e9;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Counter-Box button:hover {
+  background-color: #0284c7;
+}
