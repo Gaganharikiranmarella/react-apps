@@ -1,0 +1,14 @@
+.app20a-box {
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+  background-color: #fefce8;
+  border: 2px solid #facc15;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(234, 179, 8, 0.2);
+  text-align: center;
+}
+
+.app20a-box h3 {
+  color: #854d0e;
+}

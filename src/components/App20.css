@@ -1,0 +1,40 @@
+.app20-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #f8fafc;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.app20-container h1 {
+  font-size: 28px;
+  color: #1e3a8a;
+}
+
+.app20-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #475569;
+}
+
+.app20-container p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
