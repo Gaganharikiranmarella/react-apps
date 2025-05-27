@@ -1,0 +1,21 @@
+.login-box {
+  background-color: #fef9e7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.login-box input {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.login-box .error {
+  color: red;
+}
+
+.login-box .link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
