@@ -1,7 +1,7 @@
 import React, { useState, createContext } from "react";
-import Register from "./Register/Register";
-import Login from "./Login/Login";
-import "./App21/App21.css";
+import Register from "./Register";
+import Login from "./Login";
+import "./App21.css";
 
 export const UserContext = createContext();
 
