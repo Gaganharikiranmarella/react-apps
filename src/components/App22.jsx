@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App22.css";
 
-const WeatherCard = () => {
+const App22 = () => {
   const [temp, setTemp] = useState("");
 
   useEffect(() => {
