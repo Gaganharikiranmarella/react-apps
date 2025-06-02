@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App22.css";
@@ -15,8 +14,7 @@ const App22 = () => {
       .catch((err) => {
         console.error("Error fetching temperature:", err);
       });
-  }, []);
-
+  }, []); 
   return (
     <div className="card">
       <h1 className="title">Current Temperature</h1>
